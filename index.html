@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARK Design Presentation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">ARK<span>Design</span></div>
+                <button class="close-btn" id="closeMenu">&times;</button>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items will be injected by JS -->
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="viewer">
+            <div class="top-bar">
+                <button class="menu-trigger" id="openMenu">
+                    <span class="hamburger"></span>
+                    <span class="menu-text">Menu</span>
+                </button>
+                <div class="current-page-title" id="pageTitle">Home Page</div>
+                <div class="controls">
+                    <button id="prevBtn" title="Previous Page">←</button>
+                    <span id="pageCounter">1 / 16</span>
+                    <button id="nextBtn" title="Next Page">→</button>
+                </div>
+            </div>
+
+            <div class="image-container" id="imageContainer">
+                <img id="mainImage" src="Home Page.jpg" alt="Home Page">
+            </div>
+        </main>
+
+        <!-- Overlay for menu -->
+        <div class="overlay" id="overlay"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
