@@ -2,8 +2,7 @@ const pages = [
     { title: "Home Page", file: "Home Page.jpg" },
     { title: "About Us", file: "About Us.jpg" },
     { title: "Product Page", file: "Product page.jpg" },
-    { title: "Product Details (1)", file: "Product Details Page.jpg" },
-    { title: "Product Details (2)", file: "Product-Details-Page.jpg" },
+    { title: "Product Details", file: "Product-Details-Page.jpg" },
     { title: "Add to Cart", file: "Add to cart Page.jpg" },
     { title: "Cart Details", file: "Cart Details page.jpg" },
     { title: "My Wishlist", file: "My Wishlist.jpg" },
@@ -34,6 +33,7 @@ const imageContainer = document.getElementById('imageContainer');
 
 // Initialize Menu
 function initMenu() {
+    menuItemsContainer.innerHTML = ''; // Clear existing
     pages.forEach((page, index) => {
         const item = document.createElement('div');
         item.className = `menu-item ${index === 0 ? 'active' : ''}`;
