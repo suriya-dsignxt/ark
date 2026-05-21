@@ -1,19 +1,16 @@
 const pages = [
-    { title: "Home Page", file: "Home Page.jpg" },
-    { title: "About Us", file: "About Us.jpg" },
-    { title: "Product Page", file: "Product page.jpg" },
-    { title: "Product Details", file: "Product-Details-Page.jpg" },
-    { title: "Add to Cart", file: "Add to cart Page.jpg" },
-    { title: "Cart Details", file: "Cart Details page.jpg" },
-    { title: "My Wishlist", file: "My Wishlist.jpg" },
-    { title: "Recently Viewed", file: "Recently Viewed Page.jpg" },
-    { title: "Blog", file: "Blog.jpg" },
-    { title: "Contact Us", file: "Contact Us.jpg" },
-    { title: "Login Page", file: "Login Page.jpg" },
-    { title: "Privacy Policy", file: "Privacy Policy.jpg" },
-    { title: "Refund Policy", file: "Refunt Policy.jpg" },
-    { title: "Shipping Policy", file: "Shipping Policy.jpg" },
-    { title: "Warranty Policy", file: "Warranty Policy.jpg" }
+    { title: "Home Page",          file: "01-Home Page.jpg" },
+    { title: "Product Page",       file: "02-Product page.jpg" },
+    { title: "Product Details",    file: "03-Product Details Page.jpg" },
+    { title: "About Us",           file: "04-About Us.jpg" },
+    { title: "Contact Us",         file: "05-Contact Us.jpg" },
+    { title: "Blog",               file: "Blog.jpg" },
+    { title: "Privacy Policy",     file: "Privacy Policy.jpg" },
+    { title: "Recently Viewed",    file: "Recently Viewed Page.jpg" },
+    { title: "Sign Up Page",       file: "Sign up Page.jpg" },
+    { title: "Warranty Policy",    file: "Warranty Policy.jpg" },
+    { title: "Wishlist Pop-up",    file: "Wishlist Pop up form.jpg" },
+    { title: "Wishlist",           file: "Wishlist.jpg" }
 ];
 
 let currentIndex = 0;
