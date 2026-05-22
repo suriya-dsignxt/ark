@@ -1,16 +1,18 @@
 const pages = [
-    { title: "Home Page",          file: "01-Home Page.jpg" },
-    { title: "Product Page",       file: "02-Product page.jpg" },
-    { title: "Product Details",    file: "03-Product Details Page.jpg" },
-    { title: "About Us",           file: "04-About Us.jpg" },
-    { title: "Contact Us",         file: "05-Contact Us.jpg" },
-    { title: "Blog",               file: "Blog.jpg" },
-    { title: "Privacy Policy",     file: "Privacy Policy.jpg" },
-    { title: "Recently Viewed",    file: "Recently Viewed Page.jpg" },
-    { title: "Sign Up Page",       file: "Sign up Page.jpg" },
-    { title: "Warranty Policy",    file: "Warranty Policy.jpg" },
-    { title: "Wishlist Pop-up",    file: "Wishlist Pop up form.jpg" },
-    { title: "Wishlist",           file: "Wishlist.jpg" }
+    { title: "Home Page",          file: "imgs/01-Home Page.jpg" },
+    { title: "Product Page",       file: "imgs/02-Product page.jpg" },
+    { title: "Product Details",    file: "imgs/03-Product Details Page.jpg" },
+    { title: "About Us",           file: "imgs/04-About Us.jpg" },
+    { title: "Contact Us",         file: "imgs/05-Contact Us.jpg" },
+    { title: "Blog",               file: "imgs/Blog.jpg" },
+    { title: "Blog Details",       file: "imgs/Blog Details Page.jpg" },
+    { title: "Privacy Policy",     file: "imgs/Privacy Policy.jpg" },
+    { title: "Recently Viewed",    file: "imgs/Recently Viewed Page.jpg" },
+    { title: "Sign Up Page",       file: "imgs/Sign up Page.jpg" },
+    { title: "Forgot Password",    file: "imgs/Forgot Password Pop up.jpg" },
+    { title: "Warranty Policy",    file: "imgs/Warranty Policy.jpg" },
+    { title: "Wishlist Pop-up",    file: "imgs/Wishlist Pop up form.jpg" },
+    { title: "Wishlist",           file: "imgs/Wishlist.jpg" }
 ];
 
 let currentIndex = 0;
